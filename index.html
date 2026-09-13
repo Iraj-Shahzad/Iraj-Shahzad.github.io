@@ -121,31 +121,18 @@
     padding-left: 10px;
   }
 
-  .links a .label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    min-width: 0;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    flex: 1 1 auto;
-  }
+  .links a .label { display: flex; align-items: center; gap: 10px; }
 
   .links a .chev {
     font-family: 'JetBrains Mono', monospace;
     color: var(--amber);
     font-size: 13px;
-    flex: 0 0 auto;
   }
 
   .links a .path-hint {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
     color: var(--muted);
-    flex: 0 0 auto;
-    white-space: nowrap;
-    margin-left: 10px;
   }
 
   .status {
@@ -197,6 +184,7 @@
     .content { padding: 22px 18px 20px; }
     .name { font-size: 22px; }
     .links a { font-size: 14px; padding: 12px 2px; }
+    .links a .path-hint { display: none; }
   }
 
   @media (min-width: 700px) {
@@ -222,23 +210,27 @@
       <div class="links">
         <a href="https://github.com/Iraj-Shahzad/Memory-Care" target="_blank" rel="noopener">
           <span class="label"><span class="chev">&gt;</span> FYP: Memory Care</span>
-          <span class="path-hint">/code</span>
+          <span class="path-hint">/fyp</span>
         </a>
-        <a href="https://iraj-shahzad.github.io/demo.mp4" target="_blank" rel="noopener">
-          <span class="label"><span class="chev">&gt;</span> Demo Video</span>
-          <span class="path-hint">/mp4</span>
+        <a href="#">
+          <span class="label"><span class="chev">&gt;</span> Live Demo</span>
+          <span class="path-hint">/demo</span>
         </a>
-        <a href="https://iraj-shahzad.github.io/MemoryCare-IrajShahzadFYP.pptx" target="_blank" rel="noopener">
-          <span class="label"><span class="chev">&gt;</span> Slides</span>
-          <span class="path-hint">/pptx</span>
+        <a href="https://github.com/Iraj-Shahzad" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> GitHub</span>
+          <span class="path-hint">/repos</span>
+        </a>
+        <a href="https://www.linkedin.com/in/iraj-shahzad/" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> LinkedIn</span>
+          <span class="path-hint">/profile</span>
         </a>
         <a href="irajresume.pdf" target="_blank" rel="noopener">
-          <span class="label"><span class="chev">&gt;</span> Resume</span>
-          <span class="path-hint">/pdf</span>
+          <span class="label"><span class="chev">&gt;</span> Resume / CV</span>
+          <span class="path-hint">.pdf</span>
         </a>
         <a href="mailto:irajshhzad@gmail.com">
           <span class="label"><span class="chev">&gt;</span> Contact</span>
-          <span class="path-hint">/mail</span>
+          <span class="path-hint">mail</span>
         </a>
       </div>
 
