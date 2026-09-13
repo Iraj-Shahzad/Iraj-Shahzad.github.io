@@ -173,3 +173,73 @@
     font-size: 13px;
     color: var(--muted);
     line-height: 1.5;
+    margin: -14px 0 20px;
+    padding-left: 4px;
+    border-left: 2px solid var(--panel-border);
+    padding-left: 10px;
+  }
+
+  @media (max-width: 380px) {
+    body { padding: 14px; }
+    .content { padding: 22px 18px 20px; }
+    .name { font-size: 22px; }
+    .links a { font-size: 14px; padding: 12px 2px; }
+    .links a .path-hint { display: none; }
+  }
+
+  @media (min-width: 700px) {
+    .terminal { max-width: 480px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="terminal">
+    <div class="titlebar">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+      <div class="filename">profile.sh</div>
+    </div>
+
+    <div class="content">
+      <div class="prompt"><span class="path">BSCS 2022-2026 %</span> echo "compiled successfully"</div>
+      <div class="name">Iraj Shahzad</div>
+      <div class="role">Computer Science Graduate</div>
+
+      <div class="links">
+        <a href="https://github.com/Iraj-Shahzad/Memory-Care" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> FYP: Memory Care</span>
+          <span class="path-hint">/code</span>
+        </a>
+        <a href="#">
+          <span class="label"><span class="chev">&gt;</span> Live Demo</span>
+          <span class="path-hint">/live</span>
+        </a>
+        <a href="https://iraj-shahzad.github.io/MemoryCare-IrajShahzadFYP.pptx" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> Slides</span>
+          <span class="path-hint">/pptx</span>
+        </a>
+        <a href="https://www.linkedin.com/in/iraj-shahzad/" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> LinkedIn</span>
+          <span class="path-hint">/profile</span>
+        </a>
+        <a href="irajresume.pdf" target="_blank" rel="noopener">
+          <span class="label"><span class="chev">&gt;</span> Resume</span>
+          <span class="path-hint">/pdf</span>
+        </a>
+        <a href="mailto:irajshhzad@gmail.com">
+          <span class="label"><span class="chev">&gt;</span> Contact</span>
+          <span class="path-hint">/mail</span>
+        </a>
+      </div>
+
+      <div class="status">
+        <span class="pulse"></span>
+        open to opportunities
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
